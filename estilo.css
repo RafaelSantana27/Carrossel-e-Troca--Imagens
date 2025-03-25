@@ -1,0 +1,93 @@
+/* ESTILIZAÇÃO CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Grande', sans-serif;
+    background-color: #2398db;
+}
+
+/* ESTILIZAÇÃO MENU DE NAVEGAÇÃO */
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f0f0;
+    border-bottom: 4px solid #d3d3d3;
+
+    margin: 0 5px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #757a7a;
+}
+
+/* ESTILIZAÇÃO CONTEUDO PRINCIPAL */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerTrocar {
+    flex-direction: column;
+}
+
+/* ESTILIZAÇÃO IMAGENS */
+
+img {
+    width: 600px;
+    height: 398px;
+    border-radius: 8px;
+}
+
+/* ESTILIZAÇÃO DOS BOTÕES */
+
+.btn {
+    background: none;
+    cursor: pointer;
+    margin: 0 15px;
+    padding: 15px;
+    border: none;
+}
+
+.btnTrocar {
+
+    background-color: #eea112;
+    margin: 25px 0;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* CSS BONUS */
+
+.divInput {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.divInput input[type="checkbox"]{
+    width: 25px;
+    margin-right: 10px;
+}
